@@ -3,11 +3,11 @@ package com.erinfan.oo.length;
 //1Mile = 1760Yard
 //1Yard = 3 Feet
 //1Feet = 12 Inch
-enum LenthEnumImpl implements LengthEnum {
+enum LengthEnumImpl implements LengthEnum {
     INCH(1), FEET(12 * INCH.ratio), YARD(3 * FEET.ratio), MILE(1760 * YARD.ratio);
     private final int ratio;
 
-    LenthEnumImpl(int ratio) {
+    LengthEnumImpl(int ratio) {
         this.ratio = ratio;
     }
 

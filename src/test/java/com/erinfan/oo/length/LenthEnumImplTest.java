@@ -11,17 +11,17 @@ import static org.hamcrest.CoreMatchers.*;
 public class LenthEnumImplTest {
     @Test
     public void should_return_correct_name() throws Exception {
-        assertThat(LenthEnumImpl.INCH.getUnitName(), is("INCH"));
-        assertThat(LenthEnumImpl.FEET.getUnitName(), is("FEET"));
-        assertThat(LenthEnumImpl.YARD.getUnitName(), is("YARD"));
-        assertThat(LenthEnumImpl.MILE.getUnitName(), is("MILE"));
+        assertThat(LengthEnumImpl.INCH.getUnitName(), is("INCH"));
+        assertThat(LengthEnumImpl.FEET.getUnitName(), is("FEET"));
+        assertThat(LengthEnumImpl.YARD.getUnitName(), is("YARD"));
+        assertThat(LengthEnumImpl.MILE.getUnitName(), is("MILE"));
     }
 
     @Test
     public void should_return_correct_ratio() throws Exception {
-        assertThat(LenthEnumImpl.INCH.getRatio(), is(1));
-        assertThat(LenthEnumImpl.FEET.getRatio(), is(12));
-        assertThat(LenthEnumImpl.YARD.getRatio(), is(36));
-        assertThat(LenthEnumImpl.MILE.getRatio(), is(63360));
+        assertThat(LengthEnumImpl.INCH.getRatio(), is(1));
+        assertThat(LengthEnumImpl.FEET.getRatio(), is(12));
+        assertThat(LengthEnumImpl.YARD.getRatio(), is(36));
+        assertThat(LengthEnumImpl.MILE.getRatio(), is(63360));
     }
 }
