@@ -5,9 +5,9 @@ public class Length {
     private final int length;
     private final int unit;
 
-    public Length(int length, int unit) {
+    public Length(int length, LenthEnumImpl lenthEnum) {
         this.length = length;
-        this.unit = unit;
+        this.unit = lenthEnum.getRatio();
     }
 
     @Override
