@@ -6,6 +6,9 @@ import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
 
+//1Mile = 1760Yard
+//1Yard = 3 Feet
+//1Feet = 12 Inch
 public class MileTest {
     @Test
     public void should_be_equals_given_3_Mile_and_3_Mile() throws Exception {
